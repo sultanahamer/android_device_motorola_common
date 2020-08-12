@@ -113,5 +113,6 @@ PRODUCT_PACKAGES += \
 # Power
 ifeq ($(BOARD_USES_PIXEL_POWER_HAL),true)
 PRODUCT_PACKAGES += \
-    libperfmgr.vendor
+    libperfmgr.vendor \
+    libqti-perfd-client
 endif
